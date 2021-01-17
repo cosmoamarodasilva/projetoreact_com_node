@@ -1,0 +1,75 @@
+.container-fluid {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:orange;
+    text-align: center;
+}
+
+h3 {
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+strong {
+    color:black;
+}
+
+#imagem_oferta{
+    text-align: center;
+    display:inline;
+    width: 0px;
+    height: 0px;
+  
+}
+
+#menu a{
+    color:black;
+    text-decoration:none;
+}
+
+.menu a{
+    color:black;
+    text-decoration:none;
+}
+
+.descrição {
+    font-size: 15px;
+}
+
+p {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ofertadodia{
+    color:black
+}
+
+#rodape{
+    text-align: center;
+}
+
+.categorias{
+    color:black
+}
+
+.box_produtos{
+    display:inline;
+    width: 30% ; 
+}
+
+.produtos{   
+    display:inline;
+   
+}
+
+.preço{
+    color: blue;
+}
+
+.li_cor{
+    font:Arial;
+    color:black;
+}
+
