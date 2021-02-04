@@ -6,13 +6,17 @@ import 'jquery';
 import 'bootstrap/dist/js/bootstrap';
 import Header from "./componentes/cabecalho";
 import Footer from './componentes/rodape';
-
-
+import {Provider} from 'react-redux';
+import {createStore} from 'redux'
+import estados from './reducers/index'
+const store = createStore(
+  estados
+)
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store = {store}>
     <Header />
     <Footer />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
